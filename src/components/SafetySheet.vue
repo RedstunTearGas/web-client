@@ -19,13 +19,8 @@
 
 <script>
 
-import openInNewTab from '@/helpers/openInNewTab';
-
 export default {
   name: 'SafetySheet',
-  methods: {
-    openInNewTab,
-  }
 };
 </script>
 
