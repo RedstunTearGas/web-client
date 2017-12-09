@@ -42,7 +42,7 @@ nav {
   -webkit-box-align: center;
   height: 64px;
 
-  margin-top: 3rem;
+  margin-top: 5rem;
   border-top: 1px dashed #252323;
 }
 
