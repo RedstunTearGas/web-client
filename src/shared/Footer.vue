@@ -7,7 +7,6 @@
         </div>
         <div class="ten columns nav-links">
           <ul>
-            <nav-link label="about" to="/about" />
             <nav-link label="legal" to="/legal" />
             <nav-link label="contact" to="/contact" />
           </ul>
