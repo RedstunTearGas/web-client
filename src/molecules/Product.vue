@@ -53,7 +53,8 @@ export default {
 }
 
 img {
-  width: 30%;
+  max-width: 30%;
+  max-height: 220px;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
