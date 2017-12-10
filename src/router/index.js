@@ -5,6 +5,7 @@ import Home from '@/pages/Home';
 import Legal from '@/pages/Legal';
 import RawMaterials from '@/pages/RawMaterials';
 import Additives from '@/pages/Additives';
+import TearGasSprays from '@/pages/TearGasSprays';
 
 Vue.use(Router);
 
@@ -29,6 +30,11 @@ export default new Router({
       path: '/additives',
       name: 'Additives',
       component: Additives,
+    },
+    {
+      path: '/tear-gas-sprays',
+      name: 'TearGasSprays',
+      component: TearGasSprays,
     },
   ],
 });
