@@ -3,8 +3,9 @@
     <div class="row">
       <div class="six columns">
         <h1>ITC VENOM</h1>
+        <h2>(Iberverin Gel)</h2>
         <div>
-          <p>Most powerful &amp; convenient tear gas in the world.</p>
+          <p>Most powerful &amp; innovative tear gas in the world.</p>
           <p>Made in France</p>
         </div>
       </div>
