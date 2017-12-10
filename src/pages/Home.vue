@@ -10,6 +10,9 @@
     <div class="spec-container">
       <specs-list />
     </div>
+    <div class="safety-sheet-container">
+      <safety-sheet />
+    </div>
     <bottom-footer />
   </div>
 </template>
@@ -19,18 +22,15 @@
 import MainPresentation from '@/components/MainPresentation';
 import Videos from '@/components/Videos';
 import Specs from '@/components/Specs';
+import SafetySheet from '@/components/SafetySheet';
 
 export default {
   name: 'Home',
-  data() {
-    return {
-      msg: 'Welcome to Your Vue.js App',
-    };
-  },
   components: {
     'main-presentation': MainPresentation,
     'test-videos': Videos,
     'specs-list': Specs,
+    'safety-sheet': SafetySheet,
   },
 };
 </script>
@@ -50,6 +50,12 @@ export default {
   .spec-container {
     /* background-color: #DAD2BC; */
     margin-top: 5rem;
+  }
+
+  .safety-sheet-container {
+    background-color: #F5F1ED;
+    margin-top: 5rem;
+    padding-bottom: 5rem;
   }
 
 h1, h2 {
