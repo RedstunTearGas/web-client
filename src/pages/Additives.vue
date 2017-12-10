@@ -12,9 +12,9 @@
         <a-product
           title="ITC Additive"
           :desc="
-            ['aimed to be mixed at a rate of 5% in water', 'for Police water-cannons only']
+            ['(Iberverin gel)', 'aimed to be mixed at a rate of 5% in water', 'for Police water-cannons only']
           "
-          image="/static/icons/broccoli.svg"
+          image="/static/icons/radish.svg"
           columnSize="six"
         />
         <a-product
