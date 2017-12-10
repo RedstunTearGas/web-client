@@ -42,7 +42,7 @@ export default {
 
   text-align: center;
 
-  min-height: 39rem;
+  min-height: 42rem;
 
   position: relative;
 }
