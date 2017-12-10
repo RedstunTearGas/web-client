@@ -4,7 +4,7 @@
 
 # web-client of redstun.com
 
-This web client allows the user to shorten a link.
+The most powerful & innovative tear gas.
 
 #### lighthouse audit
 ![lighthouse-performance](./illustrations/performance.png)
