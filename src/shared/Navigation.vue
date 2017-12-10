@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="two columns brand">
-          Redstun
+          <router-link to="/">Redstun</router-link>
         </div>
         <div class="ten columns nav-links">
           <ul>
@@ -62,7 +62,7 @@ ul li + li {
   margin-left: 1.5rem;
 }
 
-.brand {
+.brand a {
   font-weight: bold;
   font-size: 2rem;
   text-transform: uppercase;
