@@ -4,6 +4,7 @@ import Router from 'vue-router';
 import Home from '@/pages/Home';
 import Legal from '@/pages/Legal';
 import RawMaterials from '@/pages/RawMaterials';
+import Additives from '@/pages/Additives';
 
 Vue.use(Router);
 
@@ -23,6 +24,11 @@ export default new Router({
       path: '/raw-materials',
       name: 'RawMaterials',
       component: RawMaterials,
+    },
+    {
+      path: '/additives',
+      name: 'Additives',
+      component: Additives,
     },
   ],
 });
