@@ -5,7 +5,7 @@
     <div class="container">
       <div class="row">
         <div class="twelve columns">
-          <h1>Contact-us !</h1>
+          <h1>Legal.</h1>
         </div>
       </div>
       <div class="row">
@@ -21,10 +21,7 @@
 
           <div>
             <p>Société par Action Simplifiée, au capital de 10.000 euros.</p>
-            <p>office@redstun.com</p>
-            <p>+33 (0)7 83 07 18 27</p>
           </div>
-
           <br />
 
           <div>
