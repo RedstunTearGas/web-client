@@ -14,7 +14,9 @@
       </div>
       <br />
       <div class="button-container">
-        <button>Price on demand</button>
+        <router-link to="/contact">
+          <button>Price on demand</button>
+        </router-link>
       </div>
     </div>
   </div>
