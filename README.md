@@ -1,30 +1,20 @@
-# redstun-web-client
+<img src="./illustrations/redstun-pp-fb.png" alt="logo-redstun-com" width="25%" align="right" />
 
-> redstun.com web client
+<br />
 
-## Build Setup
+# web-client of redstun.com
 
-``` bash
-# install dependencies
-npm install
+This web client allows the user to shorten a link.
 
-# serve with hot reload at localhost:8080
-npm run dev
+#### lighthouse audit
+![lighthouse-performance](./illustrations/performance.png)
 
-# build for production with minification
-npm run build
+Better performance incoming with cloudfare.
 
-# build for production and view the bundle analyzer report
-npm run build --report
+<hr />
 
-# run unit tests
-npm run unit
+# Preview
 
-# run e2e tests
-npm run e2e
+<a href="https://redstun.com">redstun.com</a>
 
-# run all tests
-npm test
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+![illustration](./illustrations/preview-redstun.png)
