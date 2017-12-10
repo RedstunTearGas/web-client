@@ -6,6 +6,7 @@ import Legal from '@/pages/Legal';
 import RawMaterials from '@/pages/RawMaterials';
 import Additives from '@/pages/Additives';
 import TearGasSprays from '@/pages/TearGasSprays';
+import Contact from '@/pages/Contact';
 
 Vue.use(Router);
 
@@ -35,6 +36,11 @@ export default new Router({
       path: '/tear-gas-sprays',
       name: 'TearGasSprays',
       component: TearGasSprays,
+    },
+    {
+      path: '/contact',
+      name: 'Contact',
+      component: Contact,
     },
   ],
 });
