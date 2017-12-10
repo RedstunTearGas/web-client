@@ -5,7 +5,7 @@
 <script>
 export default {
   name: 'NavLink',
-  props: [ 'label', 'to' ],
+  props: ['label', 'to'],
 };
 </script>
 
