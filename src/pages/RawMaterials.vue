@@ -14,7 +14,7 @@
           :desc="
             ['origin China', 'purity > 98%']
           "
-          image="src/assets/icons/china.svg"
+          image="/static/icons/china.svg"
           columnSize="four"
         />
         <a-product
@@ -22,7 +22,7 @@
           :desc="
             ['origin India', 'purity > 98%']
           "
-          image="src/assets/icons/india.svg"
+          image="/static/icons/india.svg"
           columnSize="four"
         />
         <a-product
@@ -34,7 +34,7 @@
               'water soluble or solvent soluble',
             ]
           "
-          image="src/assets/icons/india.svg"
+          image="/static/icons/india.svg"
           columnSize="four"
         />
       </div>

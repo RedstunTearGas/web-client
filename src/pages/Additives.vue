@@ -14,7 +14,7 @@
           :desc="
             ['aimed to be mixed at a rate of 5% in water', 'for Police water-cannons only']
           "
-          image="src/assets/icons/broccoli.svg"
+          image="/static/icons/broccoli.svg"
           columnSize="six"
         />
         <a-product
@@ -22,7 +22,7 @@
           :desc="
             ['aimed to be mixed at a rate of 5% in water', 'for Police water-cannons only']
           "
-          image="src/assets/icons/chili-pepper.svg"
+          image="/static/icons/chili-pepper.svg"
           columnSize="six"
         />
       </div>
