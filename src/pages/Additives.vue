@@ -22,7 +22,7 @@
           :desc="
             ['aimed to be mixed at a rate of 5% in water', 'for Police water-cannons only']
           "
-          image="/static/icons/chili-pepper.svg"
+          image="/static/icons/cs.png"
           columnSize="six"
         />
       </div>
