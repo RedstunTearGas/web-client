@@ -12,17 +12,17 @@
       <div class="row">
         <a-product
           title="25ml"
-          image="/static/sprays/itc-venom/front_25ml.jpg"
+          image="/static/sprays/itc-venom/front_25ml.png"
           columnSize="four"
         />
         <a-product
           title="50ml"
-          image="/static/sprays/itc-venom/front_50ml.jpg"
+          image="/static/sprays/itc-venom/front_50ml.png"
           columnSize="four"
         />
         <a-product
           title="75ml"
-          image="/static/sprays/itc-venom/front_100ml.jpg"
+          image="/static/sprays/itc-venom/front_100ml.png"
           columnSize="four"
         />
       </div>
@@ -31,12 +31,12 @@
       <div class="row">
         <a-product
           title="25ml"
-          image="/static/sprays/oc-viper/front_25ml.jpg"
+          image="/static/sprays/oc-viper/front_25ml.png"
           columnSize="six"
         />
         <a-product
           title="50ml"
-          image="/static/sprays/oc-viper/front_50ml.jpg"
+          image="/static/sprays/oc-viper/front_50ml.png"
           columnSize="six"
         />
       </div>
