@@ -5,7 +5,7 @@
         <h1>ITC VENOM</h1>
         <div>
           <p>Most powerful &amp; convenient tear gas in the world.</p>
-          <p>100% Made in France</p>
+          <p>Made in France</p>
         </div>
       </div>
       <div class="six columns">
