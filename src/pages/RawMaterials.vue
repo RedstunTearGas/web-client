@@ -15,6 +15,7 @@
             ['origin China', 'purity > 98%']
           "
           image="src/assets/icons/china.svg"
+          columnSize="four"
         />
         <a-product
           title="Pure Capsaicin"
@@ -22,6 +23,7 @@
             ['origin India', 'purity > 98%']
           "
           image="src/assets/icons/india.svg"
+          columnSize="four"
         />
         <a-product
           title="OC Resin"
@@ -33,6 +35,7 @@
             ]
           "
           image="src/assets/icons/india.svg"
+          columnSize="four"
         />
       </div>
     </div>
