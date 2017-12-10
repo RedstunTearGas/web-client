@@ -10,7 +10,7 @@
       </div>
       <div class="six columns">
         <img
-          src="../assets/illustration.png"
+          src="../assets/itc-venom.png"
           alt="redstun tear gas"
         />
       </div>
@@ -46,6 +46,7 @@ export default {
 img {
   display: block;
   margin: 0 auto;
+  width: 100%;
 }
 
 </style>
