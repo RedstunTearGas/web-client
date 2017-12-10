@@ -62,11 +62,6 @@
 
 <script>
 
-import MainPresentation from '@/components/MainPresentation';
-import Videos from '@/components/Videos';
-import Specs from '@/components/Specs';
-import SafetySheet from '@/components/SafetySheet';
-
 export default {
   name: 'Legal',
 };
