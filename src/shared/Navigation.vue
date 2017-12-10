@@ -67,6 +67,7 @@ ul li + li {
   font-size: 2rem;
   text-transform: uppercase;
   font-family: 'Poiret One', cursive !important;
+  color: #C20114;
 }
 
 .nav-links {
