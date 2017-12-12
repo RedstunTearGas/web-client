@@ -29,23 +29,19 @@
               <tbody>
                 <tr>
                   <td>RCS</td>
-                  <td>XXX</td>
+                  <td>830 248 233 R.C.S. LE MANS</td>
                 </tr>
                 <tr>
-                  <td>RM</td>
-                  <td>XXX</td>
+                  <td>Code NAF</td>
+                  <td>2540Z  - Fabrication d'armes et de munitions</td>
                 </tr>
                 <tr>
                   <td>TVA intracommunautaire</td>
-                  <td>XXX</td>
+                  <td>FR 51830248233</td>
                 </tr>
                 <tr>
                   <td>Nr. agrément armurier</td>
-                  <td>XXX</td>
-                </tr>
-                <tr>
-                  <td>Nr. autorisation préfectorale</td>
-                  <td>XXX</td>
+                  <td>Agrément armurier par Arrêté du 27 mars 2017 - Préfecture de la Sarthe.</td>
                 </tr>
               </tbody>
             </table>
