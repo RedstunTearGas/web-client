@@ -40,7 +40,7 @@
                   <td>FR 51830248233</td>
                 </tr>
                 <tr>
-                  <td>Nr. agrément armurier</td>
+                  <td></td>
                   <td>Agrément armurier par Arrêté du 27 mars 2017 - Préfecture de la Sarthe.</td>
                 </tr>
               </tbody>
