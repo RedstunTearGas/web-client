@@ -5,7 +5,7 @@
     <div class="container">
       <div class="row">
         <div class="twelve columns">
-          <h1>Raw Materials</h1>
+          <h1>Additives for Police water-cannons</h1>
         </div>
       </div>
       <div class="row">
@@ -16,6 +16,7 @@
           "
           image="/static/icons/radish.svg"
           columnSize="six"
+          buttonLabel="Only for Police forces - Please contact us"
         />
         <a-product
           title="CS Additive"
@@ -24,6 +25,7 @@
           "
           image="/static/icons/cs.png"
           columnSize="six"
+          buttonLabel="Only for Police forces - Please contact us"
         />
       </div>
     </div>
