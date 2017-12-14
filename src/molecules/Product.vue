@@ -15,7 +15,8 @@
       <br />
       <div class="button-container">
         <router-link to="/contact">
-          <button>Price on demand</button>
+          <button v-if="buttonLabel">{{buttonLabel}}</button>
+          <button v-else>Price on demand</button>
         </router-link>
       </div>
     </div>
@@ -25,7 +26,7 @@
 <script>
 export default {
   name: 'Product',
-  props: ['title', 'desc', 'image', 'columnSize'],
+  props: ['title', 'desc', 'image', 'columnSize', 'buttonLabel'],
 };
 </script>
 
