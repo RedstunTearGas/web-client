@@ -5,10 +5,12 @@
       <h2 class="product-name">
         {{title}}
       </h2>
-      <img
-        :src="image"
-        alt="product-icon"
-      />
+      <div class="img">
+        <img
+          :src="image"
+          alt="product-icon"
+        />
+      </div>
       <div v-for="description in desc">
         <small>{{description}}</small>
       </div>
@@ -56,10 +58,15 @@ export default {
 }
 
 img {
-  max-width: 30%;
-  max-height: 220px;
+  max-width: 80%;
+  max-height: 100%;
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.img {
+  height: 100px;
+  margin-bottom: 3rem;
 }
 
 </style>
