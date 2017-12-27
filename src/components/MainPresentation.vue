@@ -6,7 +6,14 @@
         <h2>(Iberverin Gel)</h2>
         <div>
           <p>The most powerful &amp; innovative tear gas in the world.</p>
+          <br />
+          <ul>
+            <li>High irritation power</li>
+            <li>Immediate stopping action</li>
+            <li>Fast recovery (10 min.)</li>
+          </ul>
           <p>Made in France</p>
+          <p><b>Patent pending</b></p>
         </div>
       </div>
       <div class="six columns">
@@ -48,6 +55,11 @@ img {
   display: block;
   margin: 0 auto;
   width: 100%;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 </style>
