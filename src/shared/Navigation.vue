@@ -10,6 +10,7 @@
             <nav-link label="Sprays" to="/tear-gas-sprays" />
             <nav-link label="Additives" to="/additives" />
             <nav-link label="Raw Materials" to="/raw-materials" />
+            <nav-link label="Buy" to="/buy" />
           </ul>
         </div>
       </div>
@@ -38,14 +39,6 @@ nav {
   display: flex;
   align-items: center;
   -webkit-box-align: center;
-  height: 64px;
-
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-
-  z-index: 999;
 }
 
 ul, li {
@@ -74,5 +67,24 @@ ul li + li {
   text-align: right;
 }
 
+@media screen and (max-width: 768px){
+  .row {
+    flex-direction: column;
+  }
+
+  .brand {
+    padding: 1rem;
+    margin-top: 3rem;
+  }
+
+  .nav-links {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 90%;
+    -webkit-text-size-adjust: 100%;
+    text-align: left;
+    margin-bottom: 3rem;
+  }
+}
 
 </style>
