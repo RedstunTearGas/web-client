@@ -1,0 +1,89 @@
+<template>
+  <div>
+    <top-navigation />
+
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <h1>Where to buy</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="six columns">
+          <h2>EuropArm</h2>
+          <div>
+            <p><a href="https://www.europarm.fr/en/produit-12091-Aerosol-incapacitant-ITC-Venom-50-ml-Police">Website link</a></p>
+            <p>Exclusive distributor for France</p>
+          </div>
+        </div>
+        <div class="six columns">
+          <h2>Armuerie Dune</h2>
+          <div>
+            <p>76 Avenue des Champs-Elysées</p>
+            <p>Arcades du lido</p>
+            <p>75008 Paris</p>
+            <p>France</p>
+            <p>+33 (0)1 53 76 05 51</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="six columns">
+          <h2>Armurerie Tir 1000</h2>
+          <div>
+            <p><a href="http://tir1000.eu/defense/1777-bombe-lacrymogene-itc-venom-venom-police.html">Website link</a></p>
+            <p>90 Rue Jeanne d'Arc</p>
+            <p>75013 Paris</p>
+            <p>France</p>
+            <p>+33 (0) 1 45 83 34 41</p>
+          </div>
+        </div>
+        <div class="six columns">
+          <h2>FL Conseils</h2>
+          <div>
+            <p><a href="https://www.flconseilsparis.com/bombe-lacrymogene-itc-venom-50-ml">Website link</a></p>
+            <p>13 Rue de Palestro</p>
+            <p>75002 Paris</p>
+            <p>France</p>
+            <p>+33 (0)1 40 41 99 61</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="six columns">
+          <h2>Imbach Boutique</h2>
+          <div>
+            <p>16 PLACE LOUIS IMBACH</p>
+            <p>49100 ANGERS</p>
+            <p>FRANCE</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <bottom-footer />
+  </div>
+</template>
+
+<script>
+
+export default {
+  name: 'Buy',
+};
+</script>
+
+<style scoped>
+
+  .container {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  .row {
+    margin-top: 5rem;
+  }
+
+</style>
