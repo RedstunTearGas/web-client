@@ -40,6 +40,15 @@
           columnSize="six"
         />
       </div>
+      <br /><br />
+      <h2>OC Extreme heat</h2>
+      <div class="row">
+        <a-product
+          title="15ml"
+          image="/static/sprays/oc-viper/front_25ml.png"
+          columnSize="twelve"
+        />
+      </div>
     </div>
     <bottom-footer />
   </div>
