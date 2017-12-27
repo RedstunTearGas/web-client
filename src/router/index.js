@@ -7,6 +7,7 @@ import RawMaterials from '@/pages/RawMaterials';
 import Additives from '@/pages/Additives';
 import TearGasSprays from '@/pages/TearGasSprays';
 import Contact from '@/pages/Contact';
+import Buy from '@/pages/Buy';
 
 Vue.use(Router);
 
@@ -41,6 +42,11 @@ export default new Router({
       path: '/contact',
       name: 'Contact',
       component: Contact,
+    },
+    {
+      path: '/buy',
+      name: 'Buy',
+      component: Buy,
     },
   ],
 });
