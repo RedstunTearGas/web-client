@@ -8,6 +8,9 @@
           <p>The most powerful &amp; innovative tear gas in the world.</p>
           <br />
           <ul>
+            <li>Radish/Broccoli extract</li>
+            <li>CS Free</li>
+            <li>OC Free</li>
             <li>High irritation power</li>
             <li>Immediate stopping action</li>
             <li>Fast recovery (10 min.)</li>
