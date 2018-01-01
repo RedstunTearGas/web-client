@@ -11,6 +11,10 @@ export default {
 
 <style scoped>
 
+a {
+  text-decoration: none;
+}
+
 li {
   display: flex;
   align-items: center;

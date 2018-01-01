@@ -87,4 +87,8 @@ ul li + li {
   }
 }
 
+a {
+  text-decoration: none;
+}
+
 </style>

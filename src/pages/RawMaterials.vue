@@ -42,8 +42,7 @@
         />
       </div>
       <div class="info">
-        <p>Redstun is the agent of the company Southern Spices for Europe</p>
-        <a href="http://www.southernspices.co.in">Link to website</a>
+        <p>Redstun is the agent of the company <b><a href="http://www.southernspices.co.in">Southern Spices and Extracts</a></b> for Europe</p>
       </div>
     </div>
     <bottom-footer />
