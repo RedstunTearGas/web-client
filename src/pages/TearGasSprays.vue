@@ -45,7 +45,7 @@
       <div class="row">
         <a-product
           title="15ml"
-          image="/static/sprays/oc-viper/front_25ml.png"
+          image="/static/sprays/oc-extreme-heat/front_15ml.png"
           columnSize="twelve"
         />
       </div>
