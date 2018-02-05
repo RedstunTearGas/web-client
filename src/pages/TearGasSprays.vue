@@ -47,6 +47,13 @@
           title="15ml"
           image="/static/sprays/oc-extreme-heat/front_15ml.png"
           columnSize="twelve"
+          :desc="
+            [
+              '25% OC',
+              '2% pure Capsaicin',
+              '6 Million SHU',
+            ]
+          "
         />
       </div>
     </div>
