@@ -65,7 +65,7 @@ img {
 }
 
 .img {
-  height: 100px;
+  height: 150px;
   margin-bottom: 3rem;
 }
 
