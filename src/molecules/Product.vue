@@ -7,6 +7,7 @@
       </h2>
       <div class="img">
         <img
+          v-img
           :src="image"
           alt="product-icon"
         />
