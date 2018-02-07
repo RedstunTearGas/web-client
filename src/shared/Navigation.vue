@@ -27,6 +27,11 @@ export default {
 
 <style scoped>
 
+.container {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 .row {
   display: flex;
   align-items: center;
