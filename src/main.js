@@ -3,6 +3,7 @@
 import Vue from 'vue';
 
 import VueAnalytics from 'vue-analytics';
+import VueImg from 'v-img';
 
 import NavLink from '@/atoms/NavLink';
 import Navigation from '@/shared/Navigation';
@@ -21,6 +22,7 @@ Vue.use(VueAnalytics, {
   id: 'UA-110928879-1',
   router,
 });
+Vue.use(VueImg);
 
 /* eslint-disable no-new */
 new Vue({
