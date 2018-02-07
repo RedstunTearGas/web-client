@@ -13,10 +13,13 @@
           <a target="_blank" href="https://www.europarm.fr/en/produit-12091-Aerosol-incapacitant-ITC-Venom-50-ml-Police"><h2>EuropArm</h2></a>
           <div>
             <p>Exclusive distributor for France</p>
+            <p>Only sold to professionals</p>
+            <p>BP 10025, 72200 La Flèche</p>
+            <p>+33 (0)2 43 48 50 00</p>
           </div>
         </div>
         <div class="six columns">
-          <h2>Armuerie Dune</h2>
+          <h2>Armurerie Dune</h2>
           <div>
             <p>76 Avenue des Champs-Elysées</p>
             <p>Arcades du lido</p>
