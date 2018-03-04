@@ -20,6 +20,8 @@ Vue.component('nav-link', NavLink);
 Vue.component('top-navigation', Navigation);
 Vue.component('bottom-footer', Footer);
 
+console.log('ga', process.env.GA_ID);
+
 Vue.use(VueAnalytics, {
   id: process.env.GA_ID || 'UA-110928879-1',
   router,
