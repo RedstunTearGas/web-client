@@ -32,7 +32,7 @@ export default {
       h2: 'Spécificités techniques',
       nonFlammable: {
         title: 'Ininflammable',
-        subtitle: 'À l\'épreuve des flammes',
+        subtitle: 'Compatible EID (Electronic Immobilization Device)',
       },
       pleasantOdor: {
         title: 'Odeur agréable',
@@ -52,7 +52,7 @@ export default {
       },
       madeInFrance: {
         title: 'Fabriqué en France',
-        subtitle: 'La qualité au rendez-vous',
+        subtitle: 'la qualité, en collaboration avec le CitoxLab',
       },
     },
     safetySheet: {
@@ -97,21 +97,21 @@ export default {
       title: 'Cristaux de CS',
       description: [
         'provenance: Chine',
-        'pur à > 98%',
+        'pur à > 99.99%',
       ],
     },
     capsaicin: {
       title: 'Capsaïcine Pure',
       description: [
         'provenance: Chine',
-        'pur à > 98%',
+        'pur à > 99.99%',
       ],
     },
     oc: {
       title: 'Résine d\'OC',
       description: [
-        'divers contenus majeurs de Capsaicinoid disponibles',
-        'soluble dans l\'eau ou soluble dans le solvant',
+        'Diverses teneurs en Capsaïcinoïdes disponibles',
+        'OC hydrosoluble ou OC soluble dans les solvants ordinaires',
         'provenance: Inde',
       ],
     },
