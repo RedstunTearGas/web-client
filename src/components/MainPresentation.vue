@@ -1,7 +1,7 @@
 <template>
   <div class="container main">
     <div class="row">
-      <div class="six columns">
+      <div class="seven columns">
         <h1>{{ $t("home.mainPresentation.h1") }}</h1>
         <h2>{{ $t("home.mainPresentation.h2") }}</h2>
         <div>
@@ -19,7 +19,7 @@
           <p><b>{{ $t("home.mainPresentation.description3") }}</b></p>
         </div>
       </div>
-      <div class="six columns">
+      <div class="five columns">
         <img
           src="../assets/itc-venom.png"
           alt="redstun tear gas"

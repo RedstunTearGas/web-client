@@ -26,8 +26,8 @@
           :title="$t('additives.cs.title')"
           :desc="
             [
-              $t('additives.itc.description[0]'),
-              $t('additives.itc.description[1]'),
+              $t('additives.cs.description[0]'),
+              $t('additives.cs.description[1]'),
             ]
           "
           image="/static/icons/cs.png"

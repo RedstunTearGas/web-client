@@ -43,7 +43,7 @@
         </div>
         <div>
           <h5>{{ $t("home.specs.indoor.title") }}</h5>
-          <p>{{ $t("home.specs.pleasantOdor.subtitle") }}</p>
+          <p>{{ $t("home.specs.indoor.subtitle") }}</p>
         </div>
       </div>
       <div class="six columns">
