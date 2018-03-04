@@ -11,10 +11,10 @@ RUN npm install
 # Bundle app source
 COPY . .
 
+ENV WEBSITE_LOCALE fr
+
 RUN npm run build
 
 EXPOSE 3000
-
-ENV WEBSITE_LOCALE fr
 
 CMD [ "npm", "run", "prod" ]
