@@ -27,6 +27,7 @@ Vue.use(VueAnalytics, {
 Vue.use(VueImg);
 Vue.use(VueI18n);
 
+console.log('locale', process.env.WEBSITE_LOCALE);
 const i18n = new VueI18n({
   locale: process.env.WEBSITE_LOCALE, // set locale
   messages, // set locale messages

@@ -15,6 +15,6 @@ RUN npm run build
 
 EXPOSE 3000
 
-ENV WEBSITE_LOCALE en
+ENV WEBSITE_LOCALE fr
 
 CMD [ "npm", "run", "prod" ]
