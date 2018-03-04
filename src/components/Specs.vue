@@ -2,7 +2,7 @@
   <div class="container main">
     <div class="row">
       <div class="twelve columns headline">
-        <h2>Specs</h2>
+        <h2>{{ $t("home.specs.h2") }}</h2>
       </div>
     </div>
     <div class="row">
@@ -14,9 +14,9 @@
           />
         </div>
         <div>
-          <h5>Non-flammable</h5>
+          <h5>{{ $t("home.specs.nonFlammable.title") }}</h5>
           <p>
-            Fire-proof.
+            {{ $t("home.specs.nonFlammable.subtitle") }}
           </p>
         </div>
       </div>
@@ -28,8 +28,8 @@
           />
         </div>
         <div>
-          <h5>Pleasent odor</h5>
-          <p>Smells Good. Aniseed.</p>
+          <h5>{{ $t("home.specs.pleasantOdor.title") }}</h5>
+          <p>{{ $t("home.specs.pleasantOdor.subtitle") }}</p>
         </div>
       </div>
     </div>
@@ -42,8 +42,8 @@
           />
         </div>
         <div>
-          <h5>Indoor</h5>
-          <p>Only the target will be stunned.</p>
+          <h5>{{ $t("home.specs.indoor.title") }}</h5>
+          <p>{{ $t("home.specs.pleasantOdor.subtitle") }}</p>
         </div>
       </div>
       <div class="six columns">
@@ -54,8 +54,8 @@
           />
         </div>
         <div>
-          <h5>Washable</h5>
-          <p>You can wash it away easily from clothes.</p>
+          <h5>{{ $t("home.specs.washable.title") }}</h5>
+          <p>{{ $t("home.specs.washable.subtitle") }}</p>
         </div>
       </div>
     </div>
@@ -68,8 +68,8 @@
           />
         </div>
         <div>
-          <h5>Strong</h5>
-          <p>5.5 millions SHU. Powerful.</p>
+          <h5>{{ $t("home.specs.strong.title") }}</h5>
+          <p>{{ $t("home.specs.strong.subtitle") }}</p>
         </div>
       </div>
       <div class="six columns">
@@ -80,8 +80,8 @@
           />
         </div>
         <div>
-          <h5>Made in France</h5>
-          <p>Top. Notch. Quality.</p>
+          <h5>{{ $t("home.specs.madeInFrance.title") }}</h5>
+          <p>{{ $t("home.specs.madeInFrance.subtitle") }}</p>
         </div>
       </div>
     </div>

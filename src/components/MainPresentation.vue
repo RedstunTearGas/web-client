@@ -2,21 +2,21 @@
   <div class="container main">
     <div class="row">
       <div class="six columns">
-        <h1>ITC VENOM</h1>
-        <h2>(Iberverin Gel)</h2>
+        <h1>{{ $t("home.mainPresentation.h1") }}</h1>
+        <h2>{{ $t("home.mainPresentation.h2") }}</h2>
         <div>
-          <p>The most powerful &amp; innovative tear gas in the world.</p>
+          <p>{{ $t("home.mainPresentation.description") }}</p>
           <br />
           <ul>
-            <li>Radish/Broccoli extract</li>
-            <li>CS Free</li>
-            <li>OC Free</li>
-            <li>High irritation power</li>
-            <li>Immediate stopping action</li>
-            <li>Fast recovery (10 min.)</li>
+            <li>{{ $t("home.mainPresentation.features[0]") }}</li>
+            <li>{{ $t("home.mainPresentation.features[1]") }}</li>
+            <li>{{ $t("home.mainPresentation.features[2]") }}</li>
+            <li>{{ $t("home.mainPresentation.features[3]") }}</li>
+            <li>{{ $t("home.mainPresentation.features[4]") }}</li>
+            <li>{{ $t("home.mainPresentation.features[5]") }}</li>
           </ul>
-          <p>Made in France</p>
-          <p><b>Patent pending</b></p>
+          <p>{{ $t("home.mainPresentation.description2") }}</p>
+          <p><b>{{ $t("home.mainPresentation.description3") }}</b></p>
         </div>
       </div>
       <div class="six columns">

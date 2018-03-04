@@ -4,7 +4,9 @@ import Vue from 'vue';
 
 import VueAnalytics from 'vue-analytics';
 import VueImg from 'v-img';
+import VueI18n from 'vue-i18n';
 
+import messages from '@/i18n';
 import NavLink from '@/atoms/NavLink';
 import Navigation from '@/shared/Navigation';
 import Footer from '@/shared/Footer';
@@ -23,9 +25,17 @@ Vue.use(VueAnalytics, {
   router,
 });
 Vue.use(VueImg);
+Vue.use(VueI18n);
+
+const i18n = new VueI18n({
+  locale: process.env.WEBSITE_LOCALE, // set locale
+  messages, // set locale messages
+  fallbackLocale: 'en',
+});
 
 /* eslint-disable no-new */
 new Vue({
+  i18n,
   el: '#app',
   router,
   template: '<App/>',

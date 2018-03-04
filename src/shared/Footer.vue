@@ -2,13 +2,10 @@
   <nav>
     <div class="container">
       <div class="row">
-        <div class="two columns brand">
-          More ...
-        </div>
         <div class="ten columns nav-links">
           <ul>
-            <nav-link label="legal" to="/legal" />
-            <nav-link label="contact" to="/contact" />
+            <nav-link :label="$t('footer.legal')" to="/legal" />
+            <nav-link :label="$t('footer.contact')" to="/contact" />
           </ul>
         </div>
       </div>

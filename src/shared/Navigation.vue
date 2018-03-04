@@ -7,10 +7,10 @@
         </div>
         <div class="ten columns nav-links">
           <ul>
-            <nav-link label="Sprays" to="/tear-gas-sprays" />
-            <nav-link label="Additives" to="/additives" />
-            <nav-link label="Raw Materials" to="/raw-materials" />
-            <nav-link label="Buy" to="/buy" />
+            <nav-link :label="$t('nav.sprays')" to="/tear-gas-sprays" />
+            <nav-link :label="$t('nav.additives')" to="/additives" />
+            <nav-link :label="$t('nav.rawMaterials')" to="/raw-materials" />
+            <nav-link :label="$t('nav.buy')" to="/buy" />
           </ul>
         </div>
       </div>

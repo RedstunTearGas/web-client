@@ -5,36 +5,39 @@
     <div class="container">
       <div class="row">
         <div class="twelve columns">
-          <h1>Raw Materials</h1>
+          <h1>{{ $t("rawMaterials.h1") }}</h1>
         </div>
       </div>
       <div class="row">
         <a-product
-          title="CS Crystals"
+          :title="$t('rawMaterials.cs.title')"
           :desc="
-            ['origin China', 'purity > 98%']
+            [
+              $t('rawMaterials.cs.description[0]'),
+              $t('rawMaterials.cs.description[1]'),
+            ]
           "
           image="/static/icons/cs.png"
           columnSize="four"
         />
         <a-product
-          title="Pure Capsaicin"
+          :title="$t('rawMaterials.capsaicin.title')"
           :desc="
             [
-              'purity > 98%',
-              'origin India',
+              $t('rawMaterials.capsaicin.description[0]'),
+              $t('rawMaterials.capsaicin.description[1]'),
             ]
           "
           image="/static/icons/capsaicin.svg"
           columnSize="four"
         />
         <a-product
-          title="OC Resin"
+          :title="$t('rawMaterials.oc.title')"
           :desc="
             [
-              'various Major Capsaicinoid content available',
-              'water soluble or solvent soluble',
-              'origin India',
+              $t('rawMaterials.oc.description[0]'),
+              $t('rawMaterials.oc.description[2]'),
+              $t('rawMaterials.oc.description[1]'),
             ]
           "
           image="/static/icons/barrel.svg"
@@ -42,7 +45,7 @@
         />
       </div>
       <div class="info">
-        <p>Redstun is the agent of the company <b><a href="http://www.southernspices.co.in">Southern Spices and Extracts</a></b> for Europe</p>
+        <p>{{ $t("rawMaterials.agentInfo.1") }}<b><a target="_blank" href="http://www.southernspices.co.in">{{ $t("rawMaterials.agentInfo.2") }}</a></b>{{ $t("rawMaterials.agentInfo.3") }}</p>
       </div>
     </div>
     <bottom-footer />

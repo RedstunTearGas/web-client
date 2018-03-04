@@ -5,15 +5,15 @@
     <div class="container">
       <div class="row">
         <div class="twelve columns">
-          <h1>Where to buy</h1>
+          <h1>{{ $t("buy.h1") }}</h1>
         </div>
       </div>
       <div class="row">
         <div class="six columns">
           <a target="_blank" href="https://www.europarm.fr/en/produit-12091-Aerosol-incapacitant-ITC-Venom-50-ml-Police"><h2>EuropArm</h2></a>
           <div>
-            <p>Exclusive distributor for France</p>
-            <p>Only sold to professionals</p>
+            <p>{{ $t("buy.europarm.info1") }}</p>
+            <p>{{ $t("buy.europarm.info2") }}</p>
             <p>BP 10025, 72200 La Flèche</p>
             <p>+33 (0)2 43 48 50 00</p>
           </div>

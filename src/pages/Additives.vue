@@ -5,27 +5,34 @@
     <div class="container">
       <div class="row">
         <div class="twelve columns">
-          <h1>Additives for Police water-cannons</h1>
+          <h1>{{ $t("additives.h1") }}</h1>
         </div>
       </div>
       <div class="row">
         <a-product
-          title="ITC Additive"
+          :title="$t('additives.itc.title')"
           :desc="
-            ['(Iberverin gel)', 'aimed to be mixed at a rate of 5% in water', 'for Police water-cannons only']
+            [
+              $t('additives.itc.description[0]'),
+              $t('additives.itc.description[1]'),
+              $t('additives.itc.description[2]'),
+            ]
           "
           image="/static/icons/radish.svg"
           columnSize="six"
-          buttonLabel="Only for Police forces - Please contact us"
+          :buttonLabel="$t('additives.itc.button')"
         />
         <a-product
-          title="CS Additive"
+          :title="$t('additives.cs.title')"
           :desc="
-            ['aimed to be mixed at a rate of 5% in water', 'for Police water-cannons only']
+            [
+              $t('additives.itc.description[0]'),
+              $t('additives.itc.description[1]'),
+            ]
           "
           image="/static/icons/cs.png"
           columnSize="six"
-          buttonLabel="Only for Police forces - Please contact us"
+          :buttonLabel="$t('additives.cs.button')"
         />
       </div>
     </div>

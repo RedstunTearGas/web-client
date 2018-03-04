@@ -5,7 +5,7 @@
     <div class="container">
       <div class="row">
         <div class="twelve columns">
-          <h1>Legal.</h1>
+          <h1>{{ $t('legal.h1') }}</h1>
         </div>
       </div>
       <div class="row">

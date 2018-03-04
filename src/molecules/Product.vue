@@ -19,7 +19,7 @@
       <div class="button-container">
         <router-link to="/contact">
           <button v-if="buttonLabel">{{buttonLabel}}</button>
-          <button v-else>Price on demand</button>
+          <button v-else>{{ $t('product.priceOnDemand' )}}</button>
         </router-link>
       </div>
     </div>

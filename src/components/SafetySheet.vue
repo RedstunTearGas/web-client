@@ -2,14 +2,14 @@
   <div class="container main">
     <div class="row">
       <div class="twelve columns headline">
-        <h2>Safety Sheet</h2>
+        <h2>{{ $t("home.safetySheet.h2") }}</h2>
       </div>
     </div>
     <div class="row">
       <div class="twelve columns download-container">
         <a href="/static/safetysheets/spray-itc-venom-eng.pdf" target="_blank">
           <button>
-            download
+            {{ $t("home.safetySheet.dl") }}
           </button>
         </a>
       </div>

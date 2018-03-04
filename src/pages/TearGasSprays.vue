@@ -5,10 +5,10 @@
     <div class="container">
       <div class="row">
         <div class="twelve columns">
-          <h1>Tear Gas Sprays</h1>
+          <h1>{{ $t("tearGas.h1") }}</h1>
         </div>
       </div>
-      <h2>ITC Venom</h2>
+      <h2>{{ $t("tearGas.itcVenom") }}</h2>
       <div class="row">
         <a-product
           title="25ml"
@@ -27,8 +27,8 @@
         />
       </div>
       <br /><br />
-      <h2>OC Viper</h2>
-      <div class="row">
+      <h2>{{ $t("tearGas.ocViper") }}</h2>
+       <div class="row">
         <a-product
           title="25ml"
           image="/static/sprays/oc-viper/front_25ml.png"
@@ -41,7 +41,7 @@
         />
       </div>
       <br /><br />
-      <h2>OC Extreme heat</h2>
+      <h2>{{ $t("tearGas.ocExtremeHeat") }}</h2>
       <div class="row">
         <a-product
           title="15ml"
@@ -49,9 +49,9 @@
           columnSize="twelve"
           :desc="
             [
-              '25% OC',
-              '2% pure Capsaicin',
-              '6 Million SHU',
+              $t('tearGas.ocExtremeHeatDescription[0]'),
+              $t('tearGas.ocExtremeHeatDescription[1]'),
+              $t('tearGas.ocExtremeHeatDescription[2]'),
             ]
           "
         />
