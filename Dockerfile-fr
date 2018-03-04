@@ -12,6 +12,7 @@ RUN npm install
 COPY . .
 
 ENV WEBSITE_LOCALE fr
+ENV GA_ID UA-110928879-2
 
 RUN npm run build
 

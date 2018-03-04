@@ -21,7 +21,7 @@ Vue.component('top-navigation', Navigation);
 Vue.component('bottom-footer', Footer);
 
 Vue.use(VueAnalytics, {
-  id: 'UA-110928879-1',
+  id: process.env.GA_ID || 'UA-110928879-1',
   router,
 });
 Vue.use(VueImg);
