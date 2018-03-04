@@ -35,7 +35,7 @@ export default {
         subtitle: 'Fire-proof.',
       },
       pleasantOdor: {
-        title: 'Pleasant odor',
+        title: 'Odeur agréable',
         subtitle: 'Smells Good. Aniseed.',
       },
       indoor: {
