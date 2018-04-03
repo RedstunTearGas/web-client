@@ -1,6 +1,5 @@
 <template>
   <div>
-    <top-navigation />
     <header>
       <main-presentation />
     </header>

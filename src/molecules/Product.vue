@@ -1,19 +1,18 @@
 <template>
   <div :class="`${columnSize} columns product-container`">
+    <div class="img">
+      <img
+        v-img
+        :src="image"
+        alt="product-icon"
+      />
+    </div>
     <div class="product">
-      <br />
       <h2 class="product-name">
         {{title}}
       </h2>
-      <div class="img">
-        <img
-          v-img
-          :src="image"
-          alt="product-icon"
-        />
-      </div>
-      <div v-for="description in desc">
-        <small>{{description}}</small>
+      <div class="description">
+        Idéal pour un sac à main
       </div>
       <br />
       <div class="button-container">
@@ -36,38 +35,69 @@ export default {
 <style scoped>
 
 .product-container {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+
+  align-content: center;
+  align-items: center;
+
+  background-color: #FFF;
+  box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, 0.2);
+
+  height: 200px;
+}
+
+.product-name {
+  font-size: 21px;
+  font-weight: 700;
+  color: hsl(0, 0%, 13%);
 }
 
 .product {
-  background-color: #FFF;
-  border: 1px solid #70798C;
+  flex: 4;
 
-  text-align: center;
-
-  min-height: 42rem;
+  text-align: left;
 
   position: relative;
+  padding: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
+
+  height: calc(200px - 2rem);
 }
 
 .button-container {
-  position: absolute;
-  bottom: 1rem;
-  left: 0;
-  right: 0;
+  display: flex;
+  text-align: right;
+  align-self: flex-end;
 }
 
+
+.description {
+  flex: 1;
+}
 img {
+  max-height: 80%;
   max-width: 80%;
-  max-height: 100%;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  margin: auto auto;
 }
 
 .img {
-  height: 150px;
-  margin-bottom: 3rem;
+  flex: 1;
+
+  display: flex;
+  align-content: center;
+
+  background:hsl(0, 0%, 13%);
+
+  height: 100%;
+}
+
+button {
+  border-radius: 0;
+  margin-bottom: 0;
 }
 
 </style>

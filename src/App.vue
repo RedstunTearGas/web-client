@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <top-navigation />
     <router-view/>
   </div>
 </template>
@@ -16,6 +17,14 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
+
+  background-color: #f6f9fc;
+
+  min-height: 100%;
+}
+
+html, body {
+  min-height: 100%;
 }
 
 * {
@@ -23,11 +32,11 @@ export default {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Poiret One', cursive !important;
+  font-family: 'Comfortaa', cursive !important;
 }
 
 a {
-  color: #70798C;
+  color: hsl(0, 0%, 13%);
   text-decoration: underline;
 }
 

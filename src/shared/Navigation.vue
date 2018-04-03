@@ -44,6 +44,12 @@ nav {
   display: flex;
   align-items: center;
   -webkit-box-align: center;
+  background-color: #FFF;
+
+  box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, 0.2);
+  border-top: 3px solid #C20114;
+
+  margin-bottom: 3rem;
 }
 
 ul, li {
@@ -64,7 +70,7 @@ ul li + li {
   font-weight: bold;
   font-size: 2rem;
   text-transform: uppercase;
-  font-family: 'Poiret One', cursive !important;
+  font-family: 'Comfortaa', cursive !important;
   color: #C20114;
 }
 
@@ -79,7 +85,6 @@ ul li + li {
 
   .brand {
     padding: 1rem;
-    margin-top: 3rem;
   }
 
   .nav-links {
@@ -89,6 +94,20 @@ ul li + li {
     -webkit-text-size-adjust: 100%;
     text-align: left;
     margin-bottom: 3rem;
+  }
+
+  .nav-links ul {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav-links li {
+    margin-top: 1rem;
+    width: 100%;
+  }
+
+  .nav-links li + li {
+    margin-left: 0;
   }
 }
 

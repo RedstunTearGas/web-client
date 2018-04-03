@@ -15,6 +15,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: #C20114;
+}
+
 li {
   display: flex;
   align-items: center;

@@ -1,27 +1,26 @@
 <template>
   <div>
-    <top-navigation />
-
     <div class="container">
       <div class="row">
         <div class="twelve columns">
           <h1>{{ $t("tearGas.h1") }}</h1>
+          <hr />
         </div>
       </div>
       <h2>{{ $t("tearGas.itcVenom") }}</h2>
       <div class="row">
         <a-product
-          title="25ml"
+          title="Aérosol 25ml"
           image="/static/sprays/itc-venom/front_25ml.png"
           columnSize="four"
         />
         <a-product
-          title="50ml"
+          title="Aérosol 50ml"
           image="/static/sprays/itc-venom/front_50ml.png"
           columnSize="four"
         />
         <a-product
-          title="75ml"
+          title="Aérosol 75ml"
           image="/static/sprays/itc-venom/front_100ml.png"
           columnSize="four"
         />
@@ -30,12 +29,12 @@
       <h2>{{ $t("tearGas.ocViper") }}</h2>
        <div class="row">
         <a-product
-          title="25ml"
+          title="Aérosol 25ml"
           image="/static/sprays/oc-viper/front_25ml.png"
           columnSize="six"
         />
         <a-product
-          title="50ml"
+          title="Aérosol 50ml"
           image="/static/sprays/oc-viper/front_50ml.png"
           columnSize="six"
         />
@@ -44,7 +43,7 @@
       <h2>{{ $t("tearGas.ocExtremeHeat") }}</h2>
       <div class="row">
         <a-product
-          title="15ml"
+          title="Aérosol 15ml"
           image="/static/sprays/oc-extreme-heat/front_15ml.png"
           columnSize="twelve"
           :desc="
@@ -73,12 +72,10 @@ export default {
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
-  .container {
-    margin-top: 10rem;
-    margin-bottom: 10rem;
-  }
+h2 {
+  font-size: 29px;
+}
 
 </style>

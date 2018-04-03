@@ -39,7 +39,10 @@ nav {
   height: 64px;
 
   margin-top: 5rem;
-  border-top: 1px dashed #252323;
+
+  box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, 0.2);
+  border-bottom: 3px solid #C20114;
+  background: #FFF;
 }
 
 ul, li {
@@ -64,13 +67,6 @@ ul li + li {
   margin-left: 1.5rem;
 }
 
-.brand {
-  font-weight: bold;
-  font-size: 2rem;
-  text-transform: uppercase;
-  font-family: 'Poiret One', cursive !important;
-}
-
 .nav-links {
   text-align: right;
 }
@@ -82,7 +78,14 @@ ul li + li {
 
   text-transform: uppercase;
   padding: 0;
-  opacity: .6;
+  opacity: .6;.brand {
+  font-weight: bold;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-family: 'Poiret One', cursive !important;
+}
+
+
 }
 
 </style>

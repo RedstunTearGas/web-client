@@ -1,11 +1,10 @@
 <template>
   <div>
-    <top-navigation />
-
     <div class="container">
       <div class="row">
         <div class="twelve columns">
           <h1>{{ $t('legal.h1') }}</h1>
+          <hr />
         </div>
       </div>
       <div class="row">
@@ -62,11 +61,6 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
-  .container {
-    margin-top: 10rem;
-    margin-bottom: 10rem;
-  }
 
   table {
     width: 100%;
