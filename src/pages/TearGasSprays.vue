@@ -7,37 +7,47 @@
           <hr />
         </div>
       </div>
-      <h2>{{ $t("tearGas.itcVenom") }}</h2>
+      <h2>{{ $t('tearGas.itcVenom') }}</h2>
       <div class="row">
         <a-product
-          title="Aérosol 25ml"
+          :title="$t('tearGas.sprays.itc.25.title')"
           image="/static/sprays/itc-venom/front_25ml.png"
           columnSize="four"
-        />
+        >
+          {{ $t('tearGas.sprays.itc.25.description') }}
+        </a-product>
         <a-product
-          title="Aérosol 50ml"
+          :title="$t('tearGas.sprays.itc.50.title')"
           image="/static/sprays/itc-venom/front_50ml.png"
           columnSize="four"
-        />
+        >
+          {{ $t('tearGas.sprays.itc.50.description') }}
+        </a-product>
         <a-product
-          title="Aérosol 75ml"
+          :title="$t('tearGas.sprays.itc.75.title')"
           image="/static/sprays/itc-venom/front_100ml.png"
           columnSize="four"
-        />
+        >
+          {{ $t('tearGas.sprays.itc.75.description') }}
+        </a-product>
       </div>
       <br /><br />
       <h2>{{ $t("tearGas.ocViper") }}</h2>
        <div class="row">
         <a-product
-          title="Aérosol 25ml"
+          :title="$t('tearGas.sprays.oc.25.title')"
           image="/static/sprays/oc-viper/front_25ml.png"
           columnSize="six"
-        />
+        >
+          {{ $t('tearGas.sprays.oc.25.description') }}
+        </a-product>
         <a-product
-          title="Aérosol 50ml"
+          :title="$t('tearGas.sprays.oc.50.title')"
           image="/static/sprays/oc-viper/front_50ml.png"
           columnSize="six"
-        />
+        >
+          {{ $t('tearGas.sprays.oc.50.description') }}
+        </a-product>
       </div>
       <br /><br />
       <h2>{{ $t("tearGas.ocExtremeHeat") }}</h2>
@@ -46,14 +56,9 @@
           title="Aérosol 15ml"
           image="/static/sprays/oc-extreme-heat/front_15ml.png"
           columnSize="twelve"
-          :desc="
-            [
-              $t('tearGas.ocExtremeHeatDescription[0]'),
-              $t('tearGas.ocExtremeHeatDescription[1]'),
-              $t('tearGas.ocExtremeHeatDescription[2]'),
-            ]
-          "
-        />
+        >
+          {{ $t('tearGas.sprays.oceh.15.description') }}
+        </a-product>
       </div>
     </div>
     <bottom-footer />
