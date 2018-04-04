@@ -12,7 +12,7 @@
         {{title}}
       </h2>
       <div class="description">
-        Idéal pour un sac à main
+        <slot />
       </div>
       <br />
       <div class="button-container">
