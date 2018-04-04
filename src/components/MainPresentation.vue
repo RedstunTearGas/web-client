@@ -1,7 +1,7 @@
 <template>
-  <div class="container main">
+  <div class="container">
     <div class="row">
-      <div class="seven columns">
+      <div class="col-md-7">
         <h1>{{ $t("home.mainPresentation.h1") }}</h1>
         <h2>{{ $t("home.mainPresentation.h2") }}</h2>
         <div>
@@ -19,7 +19,7 @@
           <p><b>{{ $t("home.mainPresentation.description3") }}</b></p>
         </div>
       </div>
-      <div class="five columns">
+      <div class="col-md-5">
         <img
           src="../assets/itc-venom.png"
           alt="redstun tear gas"
@@ -42,7 +42,11 @@ export default {
  height: 100%;
 }
 
-
+@media (max-width: 768px) {
+  .container {
+    padding-top: 2rem;
+  }
+}
 
 .row {
   display: flex;

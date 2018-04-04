@@ -46,7 +46,7 @@ nav {
   -webkit-box-align: center;
   background-color: #FFF;
 
-  box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, 0.2);
+  box-shadow: 0 1px 3px 0 hsla(0, 0%, 0%, 0.1);
   border-top: 3px solid #C20114;
 
   margin-bottom: 0;
@@ -97,7 +97,6 @@ ul li + li {
     font-size: 1rem;
     -webkit-text-size-adjust: 100%;
     text-align: left;
-    margin-bottom: 3rem;
   }
 
   .nav-links ul {
@@ -112,6 +111,10 @@ ul li + li {
 
   .nav-links li + li {
     margin-left: 0;
+  }
+
+  .container {
+    padding-top: 0;
   }
 }
 

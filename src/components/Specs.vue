@@ -1,7 +1,7 @@
 <template>
   <div class="container main">
     <div class="row">
-      <div class="twelve columns headline">
+      <div class="col-md-12 headline">
         <h2>{{ $t("home.specs.h2") }}</h2>
       </div>
     </div>

@@ -63,6 +63,7 @@ a {
 
 .page-container {
   padding-top: 1rem;
+  min-height: 90vh;
 }
 
 </style>
