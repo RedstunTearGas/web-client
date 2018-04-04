@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <div class="container">
+  <div class="page-container">
+   <div class="container">
       <div class="row">
         <div class="col-md-12">
           <h1>{{ $t("buy.h1") }}</h1>
@@ -55,7 +55,6 @@
         </div>
       </div>
     </div>
-    <bottom-footer />
   </div>
 </template>
 

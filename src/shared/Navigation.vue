@@ -50,6 +50,8 @@ nav {
   border-top: 3px solid #C20114;
 
   margin-bottom: 0;
+
+  z-index: 10;
 }
 
 ul, li {

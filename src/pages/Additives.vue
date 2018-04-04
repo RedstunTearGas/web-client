@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="page-container">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -35,7 +35,6 @@
         />
       </div>
     </div>
-    <bottom-footer />
   </div>
 </template>
 

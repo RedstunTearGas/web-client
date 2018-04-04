@@ -2,6 +2,7 @@
   <div id="app">
     <top-navigation />
     <router-view/>
+    <bottom-footer />
   </div>
 </template>
 
@@ -19,12 +20,17 @@ export default {
   color: #2c3e50;
 
   background-color: #f6f9fc;
+}
 
+html, body, #app, .page-container {
   min-height: 100%;
 }
 
+.body {
+  height: 100%;
+}
+
 html, body {
-  min-height: 100%;
   font-size: 15px !important;
   color: rgba(0, 0, 0, 0.84);
   font-weight: normal;
@@ -53,6 +59,10 @@ a {
 .row {
   margin-left: -15px;
   margin-right: -15px;
+}
+
+.page-container {
+  padding-top: 1rem;
 }
 
 </style>

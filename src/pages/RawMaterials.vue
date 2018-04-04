@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="page-container">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -47,7 +47,6 @@
         <p>{{ $t("rawMaterials.agentInfo.1") }}<b><a target="_blank" href="http://www.southernspices.co.in">{{ $t("rawMaterials.agentInfo.2") }}</a></b>{{ $t("rawMaterials.agentInfo.3") }}</p>
       </div>
     </div>
-    <bottom-footer />
   </div>
 </template>
 

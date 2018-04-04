@@ -12,7 +12,6 @@
     <div class="safety-sheet-container">
       <safety-sheet />
     </div>
-    <bottom-footer />
   </div>
 </template>
 
