@@ -1,25 +1,27 @@
 <template>
-  <div :class="`${columnSize} columns product-container`">
-    <div class="img">
-      <img
-        v-img
-        :src="image"
-        alt="product-icon"
-      />
-    </div>
-    <div class="product">
-      <h2 class="product-name">
-        {{title}}
-      </h2>
-      <div class="description">
-        <slot />
+  <div :class="`col-md-${columnSize}`">
+    <div class="product-container">
+      <div class="img">
+        <img
+          v-img
+          :src="image"
+          alt="product-icon"
+        />
       </div>
-      <br />
-      <div class="button-container">
-        <router-link to="/contact">
-          <button v-if="buttonLabel">{{buttonLabel}}</button>
-          <button v-else>{{ $t('product.priceOnDemand' )}}</button>
-        </router-link>
+      <div class="product">
+        <h2 class="product-name">
+          {{title}}
+        </h2>
+        <div class="description">
+          <slot />
+        </div>
+        <br />
+        <div class="button-container">
+          <router-link to="/contact">
+            <button v-if="buttonLabel">{{buttonLabel}}</button>
+            <button v-else>{{ $t('product.priceOnDemand' )}}</button>
+          </router-link>
+        </div>
       </div>
     </div>
   </div>
@@ -45,10 +47,13 @@ export default {
   box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, 0.2);
 
   height: 200px;
+
+  padding: 0;
+  margin-top: 1rem;
 }
 
 .product-name {
-  font-size: 21px;
+  font-size: 15px;
   font-weight: 700;
   color: hsl(0, 0%, 13%);
 }
@@ -65,7 +70,7 @@ export default {
   flex-direction: column;
   align-content: stretch;
 
-  height: calc(200px - 2rem);
+  height: 200px;
 }
 
 .button-container {
@@ -77,6 +82,7 @@ export default {
 
 .description {
   flex: 1;
+  font-size: 15px;
 }
 img {
   max-height: 80%;
@@ -91,13 +97,24 @@ img {
   align-content: center;
 
   background:hsl(0, 0%, 13%);
-
+  min-width: 56px;
   height: 100%;
 }
 
 button {
   border-radius: 0;
   margin-bottom: 0;
+  margin-left: 1rem;
+  margin-right: 1rem;
+
+  font-size: 15px;
+
+  background: #FFF;
+  border: 1px solid hsl(0, 0%, 7%);
+}
+
+button:hover {
+  border: 1px solid hsl(0, 0%, 13%);
 }
 
 </style>

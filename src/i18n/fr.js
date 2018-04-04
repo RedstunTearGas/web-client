@@ -62,33 +62,65 @@ export default {
   },
   tearGas: {
     h1: 'Bombes lacrymogènes',
-    itcVenom: 'ITC Venom',
-    ocViper: 'OC Viper',
-    ocExtremeHeat: 'OC Extreme heat',
+    itcVenom: 'ITC Venom - Usage intérieur/extérieur',
+    ocViper: 'OC Viper - Usage extérieur',
+    ocExtremeHeat: 'OC Extreme heat - Usage extérieur',
     ocExtremeHeatDescription: [
       '25% OC',
       '2% pure Capsaicin',
       '6 Millions SHU',
     ],
+    sprays: {
+      itc: {
+        25: {
+          title: 'Aérosol 25ml',
+          description: 'Parfait pour une poche de pantalon.',
+        },
+        50: {
+          title: 'Aérosol 50ml',
+          description: 'Dans votre sac à main, sac de sport.',
+        },
+        75: {
+          title: 'Aérosol 75ml',
+          description: 'Rentre parfaitement dans une portière de voiture! Ou bien a garder à domicile.',
+        },
+      },
+      oc: {
+        25: {
+          title: 'Aérosol 25ml',
+          description: 'Pour le porter discrètement sur soi et se défendre contre un indiviu dangereux.',
+        },
+        50: {
+          title: 'Aérosol 50ml',
+          description: 'Idéal dans un sac.',
+        },
+      },
+      oceh: {
+        15: {
+          title: 'Aérosol 15ml',
+          description: 'Discret et une efficacité redoutable contre un individu.',
+        },
+      },
+    },
   },
   additives: {
     h1: 'Additifs pour canons à eau',
     itc: {
-      title: 'ITC Additive',
+      title: 'Additif ITC Venom',
       description: [
         'Iberverin gel',
         'à mixer à hauteur de 5% dans l\'eau',
         'uniquement pour les canons à eau',
       ],
-      button: 'Seulement pour les forces de l\'ordre - Contactez-nous',
+      button: 'Seulement pour les forces de l\'ordre',
     },
     cs: {
-      title: 'CS Additive',
+      title: 'Additif CS',
       description: [
         'à mixer à hauteur de 5% dans l\'eau',
         'uniquement pour les canons à eau',
       ],
-      button: 'Seulement pour les forces de l\'ordre - Contactez-nous',
+      button: 'Seulement pour les forces de l\'ordre',
     },
   },
   rawMaterials: {

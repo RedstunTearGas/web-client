@@ -2,7 +2,7 @@
   <div>
     <div class="container">
       <div class="row">
-        <div class="twelve columns">
+        <div class="col-md-12">
           <h1>{{ $t("rawMaterials.h1") }}</h1>
           <hr />
         </div>
@@ -17,7 +17,7 @@
             ]
           "
           image="/static/icons/cs.png"
-          columnSize="four"
+          columnSize="4"
         />
         <a-product
           :title="$t('rawMaterials.capsaicin.title')"
@@ -28,7 +28,7 @@
             ]
           "
           image="/static/icons/capsaicin.svg"
-          columnSize="four"
+          columnSize="4"
         />
         <a-product
           :title="$t('rawMaterials.oc.title')"
@@ -40,7 +40,7 @@
             ]
           "
           image="/static/icons/barrel.svg"
-          columnSize="four"
+          columnSize="4"
         />
       </div>
       <div class="info">
@@ -68,8 +68,10 @@ export default {
 
   .info {
     border-left: 1px solid #70798C;
-    padding-left: 2rem;
+    padding-left: 8px;
     margin-top: 3rem;
+
+    font-size: 16px;
   }
 
   .info p {

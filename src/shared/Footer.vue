@@ -2,7 +2,7 @@
   <nav>
     <div class="container">
       <div class="row">
-        <div class="ten columns nav-links">
+        <div class="col-md-12 nav-links">
           <ul>
             <nav-link :label="$t('footer.legal')" to="/legal" />
             <nav-link :label="$t('footer.contact')" to="/contact" />
@@ -43,6 +43,8 @@ nav {
   box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, 0.2);
   border-bottom: 3px solid #C20114;
   background: #FFF;
+
+  font-size: 16px;
 }
 
 ul, li {
@@ -78,14 +80,7 @@ ul li + li {
 
   text-transform: uppercase;
   padding: 0;
-  opacity: .6;.brand {
-  font-weight: bold;
-  font-size: 2rem;
-  text-transform: uppercase;
-  font-family: 'Poiret One', cursive !important;
-}
-
-
+  opacity: .6;
 }
 
 </style>

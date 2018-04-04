@@ -2,7 +2,7 @@
   <div>
     <div class="container">
       <div class="row">
-        <div class="twelve columns">
+        <div class="col-md-12">
           <h1>{{ $t("additives.h1") }}</h1>
           <hr />
         </div>
@@ -18,7 +18,7 @@
             ]
           "
           image="/static/icons/radish.svg"
-          columnSize="six"
+          columnSize="6"
           :buttonLabel="$t('additives.itc.button')"
         />
         <a-product
@@ -30,7 +30,7 @@
             ]
           "
           image="/static/icons/cs.png"
-          columnSize="six"
+          columnSize="6"
           :buttonLabel="$t('additives.cs.button')"
         />
       </div>

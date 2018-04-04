@@ -12,21 +12,21 @@
         <a-product
           :title="$t('tearGas.sprays.itc.25.title')"
           image="/static/sprays/itc-venom/front_25ml.png"
-          columnSize="four"
+          columnSize="4"
         >
           {{ $t('tearGas.sprays.itc.25.description') }}
         </a-product>
         <a-product
           :title="$t('tearGas.sprays.itc.50.title')"
           image="/static/sprays/itc-venom/front_50ml.png"
-          columnSize="four"
+          columnSize="4"
         >
           {{ $t('tearGas.sprays.itc.50.description') }}
         </a-product>
         <a-product
           :title="$t('tearGas.sprays.itc.75.title')"
           image="/static/sprays/itc-venom/front_100ml.png"
-          columnSize="four"
+          columnSize="4"
         >
           {{ $t('tearGas.sprays.itc.75.description') }}
         </a-product>
@@ -37,14 +37,14 @@
         <a-product
           :title="$t('tearGas.sprays.oc.25.title')"
           image="/static/sprays/oc-viper/front_25ml.png"
-          columnSize="six"
+          columnSize="6"
         >
           {{ $t('tearGas.sprays.oc.25.description') }}
         </a-product>
         <a-product
           :title="$t('tearGas.sprays.oc.50.title')"
           image="/static/sprays/oc-viper/front_50ml.png"
-          columnSize="six"
+          columnSize="6"
         >
           {{ $t('tearGas.sprays.oc.50.description') }}
         </a-product>
@@ -55,7 +55,7 @@
         <a-product
           title="Aérosol 15ml"
           image="/static/sprays/oc-extreme-heat/front_15ml.png"
-          columnSize="twelve"
+          columnSize="12"
         >
           {{ $t('tearGas.sprays.oceh.15.description') }}
         </a-product>

@@ -6,7 +6,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="six columns">
+      <div class="col-md-6 column">
         <div>
           <img
             src="../assets/icons/fireproof.svg"
@@ -20,7 +20,7 @@
           </p>
         </div>
       </div>
-      <div class="six columns">
+      <div class="col-md-6 column">
         <div>
           <img
             src="../assets/icons/anise.svg"
@@ -34,7 +34,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="six columns">
+      <div class="col-md-6 column">
         <div>
           <img
             src="../assets/icons/subway.svg"
@@ -46,7 +46,7 @@
           <p>{{ $t("home.specs.indoor.subtitle") }}</p>
         </div>
       </div>
-      <div class="six columns">
+      <div class="col-md-6 column">
         <div>
           <img
             src="../assets/icons/washing-machine.svg"
@@ -60,7 +60,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="six columns">
+      <div class="col-md-6 column">
         <div>
           <img
             src="../assets/icons/chili-pepper.svg"
@@ -72,7 +72,7 @@
           <p>{{ $t("home.specs.strong.subtitle") }}</p>
         </div>
       </div>
-      <div class="six columns">
+      <div class="col-md-6 column">
         <div>
           <img
             src="../assets/icons/france.svg"
@@ -121,7 +121,7 @@ h5 {
   text-align: left;
 }
 
-.columns {
+.column {
   display: flex;
   align-items: center;
   justify-content: flex-start;

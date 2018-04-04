@@ -28,8 +28,8 @@ export default {
 <style scoped>
 
 .container {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .row {
@@ -49,7 +49,7 @@ nav {
   box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, 0.2);
   border-top: 3px solid #C20114;
 
-  margin-bottom: 3rem;
+  margin-bottom: 0;
 }
 
 ul, li {
@@ -68,7 +68,7 @@ ul li + li {
 
 .brand a {
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
   font-family: 'Comfortaa', cursive !important;
   color: #C20114;
@@ -76,11 +76,13 @@ ul li + li {
 
 .nav-links {
   text-align: right;
+  font-size: 15px;
 }
 
 @media screen and (max-width: 768px){
   .row {
     flex-direction: column;
+    align-items: initial;
   }
 
   .brand {
@@ -90,7 +92,7 @@ ul li + li {
   .nav-links {
     padding-left: 1rem;
     padding-right: 1rem;
-    font-size: 90%;
+    font-size: 1rem;
     -webkit-text-size-adjust: 100%;
     text-align: left;
     margin-bottom: 3rem;
