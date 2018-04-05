@@ -47,7 +47,7 @@ nav {
   background-color: #FFF;
 
   box-shadow: 0 1px 3px 0 hsla(0, 0%, 0%, 0.1);
-  border-top: 3px solid #C20114;
+  border-top: 1px solid #C20114;
 
   margin-bottom: 0;
 
@@ -70,7 +70,7 @@ ul li + li {
 
 .brand a {
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-transform: uppercase;
   font-family: 'Comfortaa', cursive !important;
   color: #C20114;
@@ -78,7 +78,7 @@ ul li + li {
 
 .nav-links {
   text-align: right;
-  font-size: 15px;
+  font-size: 1rem;
 }
 
 @media screen and (max-width: 768px){
