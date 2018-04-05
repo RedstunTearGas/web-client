@@ -19,7 +19,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
 
-  background-color: #f6f9fc;
+  background-color: #F7F7FF
 }
 
 html, body, #app, .page-container {
@@ -53,7 +53,11 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
   color: hsl(0, 0%, 13%);
-  text-decoration: underline;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 .row {
