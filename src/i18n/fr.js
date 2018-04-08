@@ -60,6 +60,9 @@ export default {
       dl: 'Télécharger',
     },
   },
+  itc: {
+    h1: 'Bombes lacrymogènes - ITC Venom'
+  },
   tearGas: {
     h1: 'Bombes lacrymogènes',
     itcVenom: 'ITC Venom - Usage intérieur/extérieur',

@@ -19,7 +19,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
 
-  background-color: #F7F7FF
+  background-color: #FFF;
 }
 
 html, body, #app, .page-container {

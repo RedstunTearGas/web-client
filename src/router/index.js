@@ -9,6 +9,10 @@ import TearGasSprays from '@/pages/TearGasSprays';
 import Contact from '@/pages/Contact';
 import Buy from '@/pages/Buy';
 
+// ITC
+import ITC from '@/pages/ITC';
+
+
 Vue.use(Router);
 
 export default new Router({
@@ -47,6 +51,12 @@ export default new Router({
       path: '/buy',
       name: 'Buy',
       component: Buy,
+    },
+
+    {
+      path: '/itc',
+      name: 'ITC',
+      component: ITC,
     },
   ],
 });
