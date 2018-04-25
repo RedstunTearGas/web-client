@@ -66,12 +66,12 @@
 
 <script>
 
-import Product from '@/molecules/Product';
+import ProductTearGas from '@/molecules/ProductTearGas';
 
 export default {
   name: 'RawMaterials',
   components: {
-    'a-product': Product,
+    'a-product': ProductTearGas,
   },
 };
 </script>
