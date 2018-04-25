@@ -113,6 +113,7 @@ button {
 
   background: #FFF;
   border: 1px solid hsl(0, 0%, 7%);
+  border-radius: 5px;
 }
 
 button:hover {
