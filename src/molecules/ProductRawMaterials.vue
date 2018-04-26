@@ -100,7 +100,8 @@ export default {
 img {
   margin: 0 auto;
   display: block;
-  height: 80%;
+  max-height: 80%;
+  max-width: 80%;
 }
 
 button {
