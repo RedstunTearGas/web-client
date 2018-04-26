@@ -41,6 +41,11 @@
           "
           image="/static/icons/barrel.svg"
           columnSize="4"
+          :backgroundStyle="{
+            backgroundColor: '#feae96',
+            backgroundImage: 'linear-gradient(315deg, #feae96 0%, #fe0944 74%)',
+          }
+          "
         />
       </div>
       <div class="info">
@@ -52,12 +57,12 @@
 
 <script>
 
-import Product from '@/molecules/Product';
+import ProductRawMaterials from '@/molecules/ProductRawMaterials';
 
 export default {
   name: 'RawMaterials',
   components: {
-    'a-product': Product,
+    'a-product': ProductRawMaterials,
   },
 };
 </script>
