@@ -65,7 +65,7 @@ const webpackConfig = merge(baseWebpackConfig, {
       filename: process.env.NODE_ENV === 'testing'
         ? 'index.html'
         : config.build.index,
-      template: 'index.html',
+      template: process.env.WEBSITE_LOCALE === 'fr' ? 'index-fr.html' : 'index-en.html',
       inject: true,
       minify: {
         removeComments: true,

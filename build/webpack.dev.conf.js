@@ -47,7 +47,7 @@ const devWebpackConfig = merge(baseWebpackConfig, {
     // https://github.com/ampedandwired/html-webpack-plugin
     new HtmlWebpackPlugin({
       filename: 'index.html',
-      template: 'index.html',
+      template: process.env.WEBSITE_LOCALE === 'fr' ? 'index-fr.html' : 'index-en.html',
       inject: true
     }),
   ]
