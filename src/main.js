@@ -14,6 +14,11 @@ import Footer from '@/shared/Footer';
 import App from './App';
 import router from './router';
 
+router.beforeEach((to, from, next) => {
+  document.title = to.meta.title || 'Redstun - ITC Venom - Iberverin Gel',
+  next();
+});
+
 Vue.config.productionTip = false;
 
 Vue.component('nav-link', NavLink);
