@@ -20,5 +20,5 @@ app.use('/', router);
 
 app.listen(3000, () => {
   // eslint-disable-next-line
-  console.log('redstun.com - web-frontend - running');
+  console.log('redstun.com - web-frontend - running on 3000');
 });
