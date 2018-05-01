@@ -10,29 +10,27 @@
       <div class="row">
         <a-product
           :title="$t('additives.itc.title')"
-          :desc="
-            [
-              $t('additives.itc.description[0]'),
-              $t('additives.itc.description[1]'),
-              $t('additives.itc.description[2]'),
-            ]
-          "
           image="/static/icons/radish.svg"
-          columnSize="6"
           :buttonLabel="$t('additives.itc.button')"
-        />
+          :backgroundStyle="{
+            backgroundColor: '#70b2d9',
+            backgroundImage: 'linear-gradient(315deg, #70b2d9 0%, #39e5b6 74%)',
+          }
+          "
+        >
+          <ul>
+            <li v-for="desc in $t('additives.itc.description')" :key="desc">{{desc}}</li>
+          </ul>
+        </a-product>
         <a-product
           :title="$t('additives.cs.title')"
-          :desc="
-            [
-              $t('additives.cs.description[0]'),
-              $t('additives.cs.description[1]'),
-            ]
-          "
-          image="/static/icons/cs.png"
-          columnSize="6"
+          image="/static/icons/cs.svg"
           :buttonLabel="$t('additives.cs.button')"
-        />
+        >
+          <ul>
+            <li v-for="desc in $t('additives.cs.description')" :key="desc">{{desc}}</li>
+          </ul>
+        </a-product>
       </div>
     </div>
   </div>
@@ -40,12 +38,12 @@
 
 <script>
 
-import Product from '@/molecules/Product';
+import ProductAdditives from '@/molecules/ProductAdditives';
 
 export default {
   name: 'Additives',
   components: {
-    'a-product': Product,
+    'a-product': ProductAdditives,
   },
 };
 </script>
