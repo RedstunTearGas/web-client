@@ -62,6 +62,7 @@ export default {
   },
   tearGas: {
     h1: 'Tear Gas Spray',
+    h2: 'To protect yourself against aggresive individuals or an aggresive animal',
     itcVenom: 'ITC Venom',
     ocViper: 'OC Viper',
     ocExtremeHeat: 'OC Extreme heat',
@@ -70,6 +71,38 @@ export default {
       '2% pure Capsaicin',
       '6 Million SHU',
     ],
+    sprays: {
+      itc: {
+        25: {
+          title: '25ml defense spray',
+          description: 'Fits in your pocket',
+        },
+        50: {
+          title: '50ml defense spray',
+          description: 'In your handbag, sportbag..',
+        },
+        75: {
+          title: '75ml defense spray',
+          description: 'Keep it in your can or your home !',
+        },
+      },
+      oc: {
+        25: {
+          title: '25ml defense spray',
+          description: 'To wear it discreetly and defend yourself against a dangerous person',
+        },
+        50: {
+          title: '50ml defense spray',
+          description: 'Perfect size to carry around',
+        },
+      },
+      oceh: {
+        15: {
+          title: '15ml defense spray',
+          description: 'Powerful efficiency against agressive individuals or animals. 25%OC! Extremely strong! It works also as a mini bear deterrent spray!',
+        },
+      },
+    },
   },
   additives: {
     h1: 'Additives for Police water-cannons',

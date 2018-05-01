@@ -61,10 +61,11 @@ export default {
     },
   },
   itc: {
-    h1: 'Bombes lacrymogènes - ITC Venom'
+    h1: 'Bombes lacrymogènes - ITC Venom',
   },
   tearGas: {
     h1: 'Bombes lacrymogènes',
+    h2: 'Vous protège efficacement contre des individus ou des animaux agressifs',
     itcVenom: 'ITC Venom - Usage intérieur/extérieur',
     ocViper: 'OC Viper - Usage extérieur',
     ocExtremeHeat: 'OC Extreme heat - Usage extérieur',
