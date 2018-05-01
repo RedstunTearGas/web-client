@@ -15,7 +15,7 @@ import App from './App';
 import router from './router';
 
 router.beforeEach((to, from, next) => {
-  document.title = to.meta.title || 'Redstun - ITC Venom - Iberverin Gel',
+  document.title = to.meta.title || process.env.WEBSITE_LOCALE === 'fr' ? 'Redstun - ITC Venom - Iberverin Gel - Bombes lacrymogènes' : 'Redstun - ITC Venom - Iberverin Gel - Tear Gas - Defense Spray';
   next();
 });
 
