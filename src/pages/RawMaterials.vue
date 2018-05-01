@@ -10,35 +10,32 @@
       <div class="row">
         <a-product
           :title="$t('rawMaterials.cs.title')"
-          :desc="
-            [
-              $t('rawMaterials.cs.description[0]'),
-              $t('rawMaterials.cs.description[1]'),
-            ]
-          "
-          image="/static/icons/cs.png"
+          image="/static/icons/cs.svg"
           columnSize="4"
-        />
+          :backgroundStyle="{
+            backgroundColor: '#f6f6f6',
+            backgroundImage: 'linear-gradient(315deg, #f6f6f6 0%, #e9e9e9 74%)',
+          }"
+        >
+          <ul>
+            <li v-for="desc in $t('rawMaterials.cs.description')" :key="desc">{{desc}}</li>
+          </ul>
+        </a-product>
         <a-product
           :title="$t('rawMaterials.capsaicin.title')"
-          :desc="
-            [
-              $t('rawMaterials.capsaicin.description[0]'),
-              $t('rawMaterials.capsaicin.description[1]'),
-            ]
-          "
           image="/static/icons/capsaicin.svg"
           columnSize="4"
-        />
+          :backgroundStyle="{
+            backgroundColor: '#eb4511',
+            backgroundImage: 'linear-gradient(315deg, #eb4511 0%, #b02e0c 74%)',
+          }"
+        >
+          <ul>
+            <li v-for="desc in $t('rawMaterials.capsaicin.description')" :key="desc">{{desc}}</li>
+          </ul>
+        </a-product>
         <a-product
           :title="$t('rawMaterials.oc.title')"
-          :desc="
-            [
-              $t('rawMaterials.oc.description[0]'),
-              $t('rawMaterials.oc.description[2]'),
-              $t('rawMaterials.oc.description[1]'),
-            ]
-          "
           image="/static/icons/barrel.svg"
           columnSize="4"
           :backgroundStyle="{
@@ -46,7 +43,11 @@
             backgroundImage: 'linear-gradient(315deg, #feae96 0%, #fe0944 74%)',
           }
           "
-        />
+        >
+          <ul>
+            <li v-for="desc in $t('rawMaterials.oc.description')" :key="desc">{{desc}}</li>
+          </ul>
+        </a-product>
       </div>
       <div class="info">
         <p>{{ $t("rawMaterials.agentInfo.1") }}<b><a target="_blank" href="http://www.southernspices.co.in">{{ $t("rawMaterials.agentInfo.2") }}</a></b>{{ $t("rawMaterials.agentInfo.3") }}</p>
