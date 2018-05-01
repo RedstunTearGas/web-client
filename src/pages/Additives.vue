@@ -26,6 +26,10 @@
           :title="$t('additives.cs.title')"
           image="/static/icons/cs.svg"
           :buttonLabel="$t('additives.cs.button')"
+          :backgroundStyle="{
+            backgroundColor: '#f6f6f6',
+            backgroundImage: 'linear-gradient(315deg, #f6f6f6 0%, #e9e9e9 74%)',
+          }"
         >
           <ul>
             <li v-for="desc in $t('additives.cs.description')" :key="desc">{{desc}}</li>
