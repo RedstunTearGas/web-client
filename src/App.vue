@@ -66,7 +66,7 @@ a:hover {
 }
 
 .page-container {
-  padding-top: 1rem;
+  padding-top: 5rem;
   min-height: 90vh;
 }
 
