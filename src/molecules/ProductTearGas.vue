@@ -1,7 +1,7 @@
 <template>
   <div class="col-md-4">
     <div class="product-container">
-      <div class="img">
+      <div class="img" :style="backgroundStyle">
         <img
           v-img
           :src="image"
@@ -30,7 +30,7 @@
 <script>
 export default {
   name: 'Product',
-  props: ['title', 'desc', 'image', 'columnSize', 'buttonLabel'],
+  props: ['title', 'desc', 'image', 'columnSize', 'buttonLabel', 'backgroundStyle'],
 };
 </script>
 
