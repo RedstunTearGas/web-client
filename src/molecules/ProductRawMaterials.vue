@@ -3,7 +3,6 @@
     <div class="product-container">
       <div class="img" :style="backgroundStyle">
         <img
-          v-img
           :src="image"
           alt="product-icon"
         />
