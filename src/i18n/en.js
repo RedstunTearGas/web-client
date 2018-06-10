@@ -1,4 +1,3 @@
-
 export default {
   nav: {
     sprays: 'Sprays',
@@ -12,7 +11,7 @@ export default {
       h2: '(Iberverin Gel)',
       description: 'The most powerful & innovative tear gas in the world.',
       features: [
-        'Radish/Broccoli extract',
+        'Based on radish & broccoli concentrated extracts',
         'CS Free',
         'OC Free',
         'High irritation power',
@@ -66,11 +65,7 @@ export default {
     itcVenom: 'ITC Venom',
     ocViper: 'OC Viper',
     ocExtremeHeat: 'OC Extreme heat',
-    ocExtremeHeatDescription: [
-      '25% OC',
-      '2% pure Capsaicin',
-      '6 Million SHU',
-    ],
+    ocExtremeHeatDescription: ['25% OC', '2% pure Capsaicin', '6 Million SHU'],
     sprays: {
       itc: {
         25: {
@@ -99,7 +94,8 @@ export default {
       oceh: {
         15: {
           title: '15ml defense spray',
-          description: 'Powerful efficiency against agressive individuals or animals. 25%OC! Extremely strong! It works also as a mini bear deterrent spray!',
+          description:
+            'Powerful efficiency against agressive individuals or animals. 25%OC! Extremely strong! It works also as a mini bear deterrent spray!',
         },
       },
     },
@@ -117,10 +113,7 @@ export default {
     },
     cs: {
       title: 'CS Additive',
-      description: [
-        'aimed to be mixed at a rate of 5% in water',
-        'for Police water-cannons only',
-      ],
+      description: ['aimed to be mixed at a rate of 5% in water', 'for Police water-cannons only'],
       button: 'Only for Police forces - Please contact us',
     },
   },
@@ -128,17 +121,11 @@ export default {
     h1: 'Raw Materials',
     cs: {
       title: 'CS Crystals',
-      description: [
-        'origin China',
-        'purity > 98%',
-      ],
+      description: ['origin China', 'purity > 98%'],
     },
     capsaicin: {
       title: 'Pure Capsaicin',
-      description: [
-        'origin China',
-        'purity > 98%',
-      ],
+      description: ['origin China', 'purity > 98%'],
     },
     oc: {
       title: 'OC Resin',

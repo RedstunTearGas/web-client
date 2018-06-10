@@ -1,4 +1,3 @@
-
 export default {
   nav: {
     sprays: 'Bombes lacrymogènes',
@@ -12,7 +11,7 @@ export default {
       h2: 'ITC Venom - (Iberverin Gel)',
       description: 'La plus puissante et la plus innovante au monde.',
       features: [
-        'Extrait de radis / broccoli',
+        "À base d'extraits concentrés de radis / broccolis",
         'Sans CS',
         'Sans OC',
         'Irritant très puissant',
@@ -36,10 +35,10 @@ export default {
       },
       pleasantOdor: {
         title: 'Odeur agréable',
-        subtitle: 'Une odeur d\'anis',
+        subtitle: "Une odeur d'anis",
       },
       indoor: {
-        title: 'Usage à l\'intérieur',
+        title: "Usage à l'intérieur",
         subtitle: 'Seul la cible visée est incapacitée.',
       },
       washable: {
@@ -69,11 +68,7 @@ export default {
     itcVenom: 'ITC Venom - Usage intérieur/extérieur',
     ocViper: 'OC Viper - Usage extérieur',
     ocExtremeHeat: 'OC Extreme heat - Usage extérieur',
-    ocExtremeHeatDescription: [
-      '25% OC',
-      '2% pure Capsaicin',
-      '6 Millions SHU',
-    ],
+    ocExtremeHeatDescription: ['25% OC', '2% pure Capsaicin', '6 Millions SHU'],
     sprays: {
       itc: {
         25: {
@@ -86,13 +81,15 @@ export default {
         },
         75: {
           title: 'Aérosol 75ml',
-          description: 'Rentre parfaitement dans une portière de voiture! Ou bien a garder à domicile.',
+          description:
+            'Rentre parfaitement dans une portière de voiture! Ou bien a garder à domicile.',
         },
       },
       oc: {
         25: {
           title: 'Aérosol 25ml',
-          description: 'Pour le porter discrètement sur soi et se défendre contre un indiviu dangereux.',
+          description:
+            'Pour le porter discrètement sur soi et se défendre contre un indiviu dangereux.',
         },
         50: {
           title: 'Aérosol 50ml',
@@ -113,38 +110,29 @@ export default {
       title: 'Additif ITC Venom',
       description: [
         'Iberverin gel',
-        'à mixer à hauteur de 5% dans l\'eau',
+        "à mixer à hauteur de 5% dans l'eau",
         'uniquement pour les canons à eau',
       ],
-      button: 'Seulement pour les forces de l\'ordre',
+      button: "Seulement pour les forces de l'ordre",
     },
     cs: {
       title: 'Additif CS',
-      description: [
-        'à mixer à hauteur de 5% dans l\'eau',
-        'uniquement pour les canons à eau',
-      ],
-      button: 'Seulement pour les forces de l\'ordre',
+      description: ["à mixer à hauteur de 5% dans l'eau", 'uniquement pour les canons à eau'],
+      button: "Seulement pour les forces de l'ordre",
     },
   },
   rawMaterials: {
     h1: 'Matières premières',
     cs: {
       title: 'Cristaux de CS',
-      description: [
-        'provenance: Chine',
-        'pur à > 99.99%',
-      ],
+      description: ['provenance: Chine', 'pur à > 99.99%'],
     },
     capsaicin: {
       title: 'Capsaïcine Pure',
-      description: [
-        'provenance: Chine',
-        'pur à > 99.99%',
-      ],
+      description: ['provenance: Chine', 'pur à > 99.99%'],
     },
     oc: {
-      title: 'Résine d\'OC',
+      title: "Résine d'OC",
       description: [
         'Diverses teneurs en Capsaïcinoïdes disponibles',
         'OC hydrosoluble ou OC soluble dans les solvants ordinaires',
@@ -152,9 +140,9 @@ export default {
       ],
     },
     agentInfo: {
-      1: 'Redstun est l\'agent de ',
+      1: "Redstun est l'agent de ",
       2: 'Southern Spices and Extracts',
-      3: ' pour l\'Europe',
+      3: " pour l'Europe",
     },
   },
   buy: {
