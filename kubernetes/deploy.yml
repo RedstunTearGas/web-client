@@ -1,0 +1,59 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: redstun-fr
+  labels:
+    app: redstun-fr
+  namespace: default
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: redstun-fr
+  strategy:
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 1
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        app: redstun-fr
+    spec:
+      containers:
+      - image: gcr.io/k8s-aksels/github-redstunteargas-web-client:v2.0
+        name: redstun-fr
+        resources:
+          requests:
+            cpu: 20m
+            memory: 55M
+---
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: redstun-en
+  labels:
+    app: redstun-en
+  namespace: default
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: redstun-en
+  strategy:
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 1
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        app: redstun-en
+    spec:
+      containers:
+      - image: gcr.io/k8s-aksels/github-redstunteargas-web-client:v2.0-en
+        name: redstun-en
+        resources:
+          requests:
+            cpu: 20m
+            memory: 55M

@@ -1,0 +1,25 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: redstun-fr-svc
+spec:
+  selector:
+    app: redstun-fr
+  type: NodePort
+  ports:
+  - name: redstun-fr-svc
+    port: 8080
+    targetPort: 3000
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: redstun-en-svc
+spec:
+  selector:
+    app: redstun-en
+  type: NodePort
+  ports:
+  - name: redstun-en-svc
+    port: 8080
+    targetPort: 3000
