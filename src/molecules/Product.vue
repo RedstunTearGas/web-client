@@ -101,20 +101,4 @@ img {
   height: 100%;
 }
 
-button {
-  border-radius: 0;
-  margin-bottom: 0;
-  margin-left: 1rem;
-  margin-right: 1rem;
-
-  font-size: 15px;
-
-  background: #FFF;
-  border: 1px solid hsl(0, 0%, 7%);
-}
-
-button:hover {
-  border: 1px solid hsl(0, 0%, 13%);
-}
-
 </style>

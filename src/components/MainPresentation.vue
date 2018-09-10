@@ -17,11 +17,14 @@
           </ul>
           <p>{{ $t("home.mainPresentation.description2") }}</p>
           <p><b>{{ $t("home.mainPresentation.description3") }}</b></p>
+          <a href="https://www.youtube.com/watch?v=EkWe4oNDAmA" target="_blank">
+            <button class="watch-video">WATCH VIDEO</button>
+          </a>
         </div>
       </div>
-      <div class="col-md-5">
+      <div class="col-md-5 illustration">
         <img
-          src="../assets/itc-venom.png"
+          src="../assets/iberverin.png"
           alt="redstun tear gas"
         />
       </div>
@@ -39,7 +42,7 @@ export default {
 <style scoped>
 
 .container {
- height: 100%;
+  min-height: 100%;
 }
 
 @media (max-width: 768px) {
@@ -55,7 +58,7 @@ export default {
   -webkit-box-pack: justify;
   -webkit-bow-align: center;
 
-  height: 100%;
+  min-height: 100%;
 }
 
 img {
@@ -67,6 +70,25 @@ img {
 p {
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.watch-video {
+  padding: 1rem;
+  float: right;
+}
+
+
+@media (max-width: 768px) {
+  .illustration {
+    display: block;
+  }
+  .watch-video {
+    float: inherit;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    margin-top: 2rem;
+  }
 }
 
 </style>
