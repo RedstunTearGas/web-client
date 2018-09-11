@@ -79,11 +79,16 @@ p {
 
 
 @media (max-width: 768px) {
+  .container {
+    padding-top: 0;
+  }
+  .row {
+    flex-direction: column-reverse;
+  }
   .illustration {
     display: block;
     padding-right: 0;
     padding-left: 0;
-    padding-top: 2rem;
   }
   .watch-video {
     float: inherit;
@@ -91,6 +96,7 @@ p {
     margin: 0 auto;
     display: block;
     margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 }
 
