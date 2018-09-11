@@ -81,6 +81,9 @@ p {
 @media (max-width: 768px) {
   .illustration {
     display: block;
+    padding-right: 0;
+    padding-left: 0;
+    padding-top: 2rem;
   }
   .watch-video {
     float: inherit;
