@@ -12,6 +12,8 @@ import Buy from '@/pages/Buy';
 // ITC
 import ITC from '@/pages/ITC';
 
+// Product pages
+import ITC_450ML from '@/pages/productPages/450ml-ITC';
 
 Vue.use(Router);
 
@@ -69,6 +71,11 @@ export default new Router({
       path: '/itc',
       name: 'ITC',
       component: ITC,
+    },
+    {
+      path: '/itc-450ml-iberverin-gel',
+      name: 'ITC 405ML Iberverin Gel',
+      component: ITC_450ML,
     },
   ],
 });

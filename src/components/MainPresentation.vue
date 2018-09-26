@@ -20,7 +20,6 @@
           <a href="https://www.youtube.com/watch?v=EkWe4oNDAmA" target="_blank">
             <button class="watch-video">WATCH VIDEO</button>
           </a>
-          <button v-on:click="pay">Acheter</button>
         </div>
       </div>
       <div class="col-md-5 illustration">
@@ -34,30 +33,9 @@
 </template>
 
 <script>
-import axios from 'axios';
-import getClient from '@/lib/stripe';
 
 export default {
   name: 'MainPresentation',
-  created: () => {
-    getClient();
-  },
-  methods: {
-    pay: async () => {
-      const stripeClient = await getClient();
-      stripeClient.open({
-        description: 'Bombe Lacry',
-        amount: 108 * 100,
-        token: async token => {
-          console.log('lol', token);
-          const result = await axios.post('http://localhost:1323/charge', {
-            token,
-          });
-          console.log('result', result);
-        },
-      });
-    }
-  }
 };
 </script>
 
