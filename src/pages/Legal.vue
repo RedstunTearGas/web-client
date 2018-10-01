@@ -11,8 +11,8 @@
         <div class="twelwe columns">
           <h2>Redstun SAS</h2>
           <div>
-            <p>17 rue Pasteur</p>
-            <p>F-72300 Sablé-sur-Sarthe</p>
+            <p>6 rue des Camélias</p>
+            <p>F-72300 Auvers-le-Hamon</p>
             <p>FRANCE</p>
           </div>
 
