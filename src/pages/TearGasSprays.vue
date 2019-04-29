@@ -5,24 +5,13 @@
         <div class="twelve columns">
           <h1>{{ $t("tearGas.h1") }}</h1>
           <h1>{{ $t("tearGas.h2") }}</h1>
-          <br />
-          <hr />
-          <br />
+          <br>
+          <hr>
+          <br>
         </div>
       </div>
       <h2>{{ $t('tearGas.itcVenom') }}</h2>
       <div class="row">
-        <a-product
-          :title="$t('tearGas.sprays.itc.25.title')"
-          image="/static/sprays/itc-venom/front_25ml.png"
-          columnSize="4"
-          :backgroundStyle="{
-            backgroundColor: '#D9E4F5',
-            backgroundImage: 'linear-gradient(315deg, #F5E3E6 0%, #D9E4F5 74%)',
-          }"
-        >
-          {{ $t('tearGas.sprays.itc.25.description') }}
-        </a-product>
         <a-product
           :title="$t('tearGas.sprays.itc.50.title')"
           image="/static/sprays/itc-venom/front_50ml.png"
@@ -31,9 +20,7 @@
             backgroundColor: '#ffac81',
             backgroundImage: 'linear-gradient(315deg, #BBDBBE 0%, #F5E3E6 74%)',
           }"
-        >
-          {{ $t('tearGas.sprays.itc.50.description') }}
-        </a-product>
+        >{{ $t('tearGas.sprays.itc.50.description') }}</a-product>
         <a-product
           :title="$t('tearGas.sprays.itc.75.title')"
           image="/static/sprays/itc-venom/front_100ml.png"
@@ -42,11 +29,47 @@
             backgroundColor: '#ffac81',
             backgroundImage: 'linear-gradient(315deg, #BBDBBE 0%, #DEEBDD 74%)',
           }"
-        >
-          {{ $t('tearGas.sprays.itc.75.description') }}
-        </a-product>
+        >{{ $t('tearGas.sprays.itc.75.description') }}</a-product>
       </div>
-      <br /><br />
+      <br>
+      <br>
+      <h2>{{ $t("tearGas.ocExtremeHeat") }}</h2>
+      <div class="row">
+        <a-product
+          title="Aérosol 15ml"
+          image="/static/sprays/oc-extreme-heat/front_15ml.png"
+          columnSize="12"
+          :backgroundStyle="{
+            backgroundColor: '#f39f86',
+            backgroundImage: 'linear-gradient(315deg, #f39f86 0%, #f9d976 74%)',
+          }"
+        >{{ $t('tearGas.sprays.oceh.15.description') }}</a-product>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+import ProductTearGas from '@/molecules/ProductTearGas';
+
+export default {
+  name: 'RawMaterials',
+  components: {
+    'a-product': ProductTearGas,
+  },
+};
+</script>
+
+<style scoped>
+h2 {
+  font-size: 29px;
+}
+</style>
+
+<!--
+
+OC VIPER
+
       <h2>{{ $t("tearGas.ocViper") }}</h2>
        <div class="row">
         <a-product
@@ -73,40 +96,7 @@
         </a-product>
       </div>
       <br /><br />
-      <h2>{{ $t("tearGas.ocExtremeHeat") }}</h2>
-      <div class="row">
-        <a-product
-          title="Aérosol 15ml"
-          image="/static/sprays/oc-extreme-heat/front_15ml.png"
-          columnSize="12"
-          :backgroundStyle="{
-            backgroundColor: '#f39f86',
-            backgroundImage: 'linear-gradient(315deg, #f39f86 0%, #f9d976 74%)',
-          }"
-        >
-          {{ $t('tearGas.sprays.oceh.15.description') }}
-        </a-product>
-      </div>
-    </div>
-  </div>
-</template>
+*/
 
-<script>
 
-import ProductTearGas from '@/molecules/ProductTearGas';
-
-export default {
-  name: 'RawMaterials',
-  components: {
-    'a-product': ProductTearGas,
-  },
-};
-</script>
-
-<style scoped>
-
-h2 {
-  font-size: 29px;
-}
-
-</style>
+-->
