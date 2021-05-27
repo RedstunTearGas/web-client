@@ -1,8 +1,11 @@
 <template>
   <div id="app">
-    <top-navigation />
-    <router-view/>
-    <bottom-footer />
+
+  <img
+            src="./assets/photo.jpg"
+            alt="placeholder"
+          />
+
   </div>
 </template>
 
